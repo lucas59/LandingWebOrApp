@@ -1,7 +1,29 @@
 {
   "name": "wizard-emprendedor",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Herramienta interactiva que ayuda a emprendedores a decidir si necesitan una landing page, sitio web completo o aplicación para su negocio",
+  "keywords": [
+    "emprendedor",
+    "startup", 
+    "landing-page",
+    "sitio-web",
+    "aplicacion",
+    "negocio-digital",
+    "test",
+    "wizard",
+    "react",
+    "vite"
+  ],
+  "author": "Wizard Emprendedor",
+  "homepage": "https://landing-web-or-app.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/wizard-emprendedor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tu-usuario/wizard-emprendedor/issues"
+  },
+  "private": false,
   "type": "module",
   "scripts": {
     "dev": "vite",
