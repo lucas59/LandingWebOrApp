@@ -254,8 +254,65 @@
   left: 0;
 }
 
+.cta-section {
+  background: linear-gradient(135deg, #f0fdf4, #dcfce7);
+  border: 2px solid #10b981;
+  border-radius: 16px;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cta-section h3 {
+  font-size: 1.4rem;
+  color: #1f2937;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.cta-section p {
+  color: #4b5563;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #25D366, #128C7E);
+  color: white;
+  text-decoration: none;
+  padding: 16px 32px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+}
+
+.whatsapp-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+}
+
+.whatsapp-icon {
+  font-size: 1.5rem;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
 .restart-btn {
-  background: linear-gradient(135deg, #10b981, #059669);
+  background: linear-gradient(135deg, #6b7280, #4b5563);
   color: white;
   border: none;
   padding: 15px 30px;
@@ -270,7 +327,7 @@
 
 .restart-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+  box-shadow: 0 4px 15px rgba(107, 114, 128, 0.3);
 }
 
 /* Clases para gradientes (simulando Tailwind) */
@@ -353,6 +410,19 @@
   
   .result-content {
     padding: 30px 20px;
+  }
+  
+  .cta-section {
+    padding: 25px 20px;
+  }
+  
+  .cta-section h3 {
+    font-size: 1.2rem;
+  }
+  
+  .whatsapp-btn {
+    padding: 14px 24px;
+    font-size: 1rem;
   }
 }
 

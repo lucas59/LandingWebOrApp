@@ -153,6 +153,20 @@ function App() {
               </ul>
             </div>
             
+            <div className="cta-section">
+              <h3>¿Necesitás ayuda para implementarlo?</h3>
+              <p>Hablemos de tu proyecto y te ayudo a llevarlo a cabo</p>
+              <a 
+                href={`https://wa.me/598091690509?text=${encodeURIComponent(`Hola! Acabo de hacer el test del Wizard Emprendedor y mi resultado fue: ${result.type}. Me gustaría recibir ayuda para implementar mi proyecto.`)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="whatsapp-btn"
+              >
+                <span className="whatsapp-icon">💬</span>
+                Hablemos por WhatsApp
+              </a>
+            </div>
+            
             <button className="restart-btn" onClick={restart}>
               🔄 Hacer el test de nuevo
             </button>
